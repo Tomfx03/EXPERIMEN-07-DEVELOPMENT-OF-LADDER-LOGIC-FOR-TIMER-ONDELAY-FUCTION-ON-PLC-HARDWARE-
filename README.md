@@ -1,8 +1,10 @@
-### EXPERIMENT-07-DEVELOPMENT-OF-LADDER-LOGIC-FOR-TIMER-ONDELAY-FUCTION-ON-PLC-HARDWARE-
-
-### AIM 
+## EXPERIMENT-07-DEVELOPMENT-OF-LADDER-LOGIC-FOR-TIMER-ONDELAY-FUCTION-ON-PLC-HARDWARE-
+### NAME:Tom francies xaviour L
+### Reg.no.:212222110060
+### Dept.: Internet Of Things
+## AIM 
 To develop and execute a ladder logic program using an ON-Delay Timer (TON) in Delta SV2 PLC, and observe its behavior on PLC hardware.
-### Hardware & Software Required:
+## Hardware & Software Required:
 Component	Specification
 PLC	Delta SV2 Series (e.g., DVP-SV2)
 Programming Cable	USB to RS232/RS485
@@ -10,7 +12,7 @@ PLC Software	WPLSoft (for programming Delta PLCs)
 Input Devices	Push Button (NO)
 Output Devices	LED Indicator / Lamp
 Power Supply	24V DC for I/O, 230V AC for PLC (as per specs)
-### Theory:
+## Theory:
 An ON-Delay Timer (TON) starts counting after the input condition is TRUE. The output turns ON after the preset time elapses.
 
 ## TON Instruction Format in Delta PLC:
@@ -45,17 +47,17 @@ Procedure:
 •	Press X0; the timer starts.
 •	After 0.5 sec, Y0 turns ON.
 •	Release X0; the timer resets.
-### Observation Table:
+## Observation Table:
 S.No	Input (X0)	Time Delay (sec)	Output (Y0)
 1	Pressed	0.5	ON
 2	Not Pressed	0	OFF
 
+##  HARDWARE SETUP 
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/213b7068-49a3-4eef-b6b1-e258d767854a" />
 
-###  HARDWARE SETUP 
+## LADDER LOGIC
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/89f57217-9a3e-4be9-a194-7e594d00df1d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b02707f-c5be-419a-b023-607c124b2377" />
 
-
-
-
-### LADDER LOGIC
-### Conclusion:
+## Conclusion:
 The ON-Delay timer function was successfully implemented using Delta SV2 PLC. The output activated after a 0.5-second delay once the input was turned ON.
